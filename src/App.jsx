@@ -7,6 +7,8 @@ import { Footer } from "./components/Footer";
 import Header from "./components/Header";
 //import { Login } from "./components/Login";
 //import { Register } from "./components/Register";
+//import Cart from './components/Cart'
+import Pizza from "./components/Pizza";
 
 
 function App() {
@@ -18,9 +20,11 @@ function App() {
       <Header 
         text="Bienvenido a Pizzería Mamma Mia!"
       />
-      <Home />
+      {/* <Home />*/}
       {/* <Register /> */}
       {/* <Login /> */}
+      {/*<Cart />*/}
+      <Pizza/>
       <Footer/>
     
     </>
